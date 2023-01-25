@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("Screenshot_20221126_093906.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    overflow:hidden;
+}
+.header{
+    display: flex;
+    background-color:rgb(32, 32, 32);
+    color: white;
+    height: 150px;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.header p{
+    color: lightblue;
+    font-style: italic;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    margin-left:1050px;
+    padding-bottom: 20px;
+}
+.header img{
+    height: 100px;
+    width: 100px;
+    border-radius: 200px;
+}
+.navbar li {
+    margin-left: 50px;
+    padding-left: 10px;
+    text-decoration:none;
+    display: flex;
+    color: white;
+    flex-direction:row;
+    align-items:flex-start;
+}
+.login{
+    display: flex;
+    color: white;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 60px;
+    font-size: 24px;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+.form{
+    display: flex;
+    color: white;
+    margin-left: 600px;
+    margin-left: 600px;
+}
+.form label{
+    color: white;
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+}
+.button h3{
+    background-color: black;
+    color: white;
+}
+.button h3:hover{
+    color: red;
+}
+.option a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.lists{
+    flex-direction:row;
+    display: flex;
+    align-content:space-between;
+}
+.list1{
+    display: flex;
+    height: 30px;
+    width: 50px;
+    border-radius: 150px;
+    background-color: lightblue;
+    align-content: center;
+}
+.list2{
+    height: 30px;
+    width: 70px;
+    border-radius: 150px;
+    background-color: lightblue; 
+}
+.list1:hover{
+    color: white;
+    background-color: red;
+}
+.list2:hover{
+    color: white;
+    background-color: red;
+}
